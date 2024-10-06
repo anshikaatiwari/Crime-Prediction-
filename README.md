@@ -11,7 +11,7 @@ Features were engineered, including extracting time-based features such as hour,
 The EDA phase involved:
 
 Visualizing the distribution of crime categories.
-Correlating features to identify important predictors.
+
 Exploring temporal patterns (e.g., crime rates by day or hour).
 The insights gained from EDA helped in feature selection and model development.
 
@@ -28,7 +28,7 @@ Tuning: Parameters such as the number of trees and learning rate were fine-tuned
 SVM is a powerful classifier that works well for complex datasets with clear boundaries between classes. A kernel trick was used to map data into a higher-dimensional space.
 
 Library Used: sklearn.svm.SVC
-Kernel: We used the rbf (Radial Basis Function) kernel for improved accuracy.
+Kernel: We used the poly kernel for improved accuracy.
 
 3. Linear Regression (Multiclass)
 Though Linear Regression is not typically used for classification, it was adapted for multiclass classification by treating each class as a separate regression problem.
@@ -38,8 +38,16 @@ Library Used: sklearn.linear_model.LinearRegression
 ## Results
 The final model, after tuning, achieved an accuracy of 88.22% on the test set. This result demonstrates that the models performed well in predicting crime categories based on the provided features.
 
-##Model	Accuracy
-Gradient Boosting Classifier:	0.88220
-Support Vector Machine (SVM) :	0.87210
-Linear Regression:	0.83560
+## Model	Accuracy(On Validation Data)
+
+Gradient Boosting Classifier:	0.89
+
+Support Vector Machine (SVM) :	0.869
+
+Linear Regression:	0.8575
+
 Gradient Boosting provided the highest accuracy.
+
+ Link for kaggle competition : https://www.kaggle.com/competitions/crime-cast-forecasting-crime-categories
+ 
+ 
