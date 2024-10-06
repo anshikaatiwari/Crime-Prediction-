@@ -23,20 +23,23 @@ Gradient Boosting is an ensemble method that builds models sequentially, correct
 
 Library Used: sklearn.ensemble.GradientBoostingClassifier
 Tuning: Parameters such as the number of trees and learning rate were fine-tuned using cross-validation.
+
 2. Support Vector Machine (SVM)
 SVM is a powerful classifier that works well for complex datasets with clear boundaries between classes. A kernel trick was used to map data into a higher-dimensional space.
 
 Library Used: sklearn.svm.SVC
 Kernel: We used the rbf (Radial Basis Function) kernel for improved accuracy.
+
 3. Linear Regression (Multiclass)
 Though Linear Regression is not typically used for classification, it was adapted for multiclass classification by treating each class as a separate regression problem.
 
 Library Used: sklearn.linear_model.LinearRegression
-Results
+
+## Results
 The final model, after tuning, achieved an accuracy of 88.22% on the test set. This result demonstrates that the models performed well in predicting crime categories based on the provided features.
 
-Model	Accuracy
-Gradient Boosting Classifier	0.88220
-Support Vector Machine (SVM)	0.87210
-Linear Regression	0.83560
+##Model	Accuracy
+Gradient Boosting Classifier:	0.88220
+Support Vector Machine (SVM) :	0.87210
+Linear Regression:	0.83560
 Gradient Boosting provided the highest accuracy.
