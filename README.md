@@ -43,7 +43,7 @@ Gradient Boosting Classifier:	0.89
 
 Support Vector Machine (SVM) :	0.869
 
-Linear Regression:	0.8575
+Logistic Regression:	0.8575
 
 Gradient Boosting provided the highest accuracy.
 
