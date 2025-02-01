@@ -30,8 +30,7 @@ SVM is a powerful classifier that works well for complex datasets with clear bou
 Library Used: sklearn.svm.SVC
 Kernel: We used the poly kernel for improved accuracy.
 
-3. Linear Regression (Multiclass)
-Though Linear Regression is not typically used for classification, it was adapted for multiclass classification by treating each class as a separate regression problem.
+3. Logistic Regression 
 
 Library Used: sklearn.linear_model.LinearRegression
 
